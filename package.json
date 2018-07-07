@@ -1,0 +1,16 @@
+{
+  "name": "ngscraper",
+  "version": "1.0.0",
+  "description": "A simple web scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec"
+  },
+  "author": "Kenice Noel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "nodemon": "^1.17.5"
+  }
+}
