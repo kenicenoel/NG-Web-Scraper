@@ -4,13 +4,21 @@
   "description": "A simple web scraper",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js --exec"
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "author": "Kenice Noel",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
-    "nodemon": "^1.17.5"
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.2",
+    "nodemon": "^1.17.5",
+    "serverless-http": "^1.6.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.25.6"
   }
 }

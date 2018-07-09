@@ -1,6 +1,6 @@
 ### NG Web Scraper
 
-A webscraper built from scrath in node. Scrapes a website for content.
+A webscraper for Now Grenada built from scratch in node. It uses Serverless, express and Amazon Web Services Lambda. In short, it basically scrapes the website for news content.
 
 #### How to use:
     
